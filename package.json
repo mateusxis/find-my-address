@@ -1,0 +1,8 @@
+{
+  "name": "find-my-address",
+  "version": "0.0.0",
+  "description": "Frontend of find my address",
+  "repository": "git@github.com:mateusxis/find-my-address.git",
+  "author": "Mateusxis <dev.mateusxis@gmail.com>",
+  "license": "MIT"
+}
