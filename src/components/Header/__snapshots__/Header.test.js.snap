@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header should render Header 1`] = `
+<header
+  className="sc-bdvvtL hOtWEz"
+>
+  <h1
+    className="sc-gsDKAQ JeTSR"
+  >
+    Busque seu endereço
+  </h1>
+</header>
+`;
