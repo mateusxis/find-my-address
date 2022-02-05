@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ColumnTable should render ColumnTable 1`] = `
+<td
+  className="sc-bdvvtL eOJgfb c1"
+>
+  New York
+</td>
+`;
