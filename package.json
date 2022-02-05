@@ -4,5 +4,56 @@
   "description": "Frontend of find my address",
   "repository": "git@github.com:mateusxis/find-my-address.git",
   "author": "Mateusxis <dev.mateusxis@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "build-analyzer": "ANALYZE=true yarn build",
+    "test": "jest",
+    "test-coverage": "yarn test --coverage",
+    "lint": "eslint .",
+    "format": "prettier --write '**/*.{js,css,json,md}'",
+    "postversion": "git push --follow-tags",
+    "prepare": "husky install"
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint --fix",
+      "jest --bail --findRelatedTests",
+      "prettier --write"
+    ],
+    "*.{css,md,json}": [
+      "prettier --write"
+    ]
+  },
+  "dependencies": {
+    "@next/bundle-analyzer": "^10.0.5",
+    "@reduxjs/toolkit": "^1.4.0",
+    "axios": "^0.21.0",
+    "next": "^12.0.10",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-input-mask": "^2.0.4",
+    "react-redux": "^7.2.2",
+    "styled-components": "^5.3.3"
+  },
+  "devDependencies": {
+    "@next/eslint-plugin-next": "^12.0.10",
+    "babel-eslint": "^10.1.0",
+    "babel-jest": "24.1.0",
+    "eslint": "^7.29.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-react": "^7.22.0",
+    "eslint-plugin-react-hooks": "^4.1.2",
+    "husky": "^6.0.0",
+    "jest": "^26.6.2",
+    "jest-transform-stub": "^2.0.0",
+    "lint-staged": "^11.0.0",
+    "nodemon": "2.0.12",
+    "prettier": "^2.3.2"
+  }
 }
