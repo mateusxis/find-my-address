@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button should render Button with prop loading 1`] = `
+<button
+  className="sc-bdvvtL dAXaRU"
+  onClick={[Function]}
+/>
+`;
+
+exports[`Button should render Button with props default values 1`] = `
+<button
+  className="sc-bdvvtL dAXaRU"
+  onClick={[Function]}
+>
+  Send
+</button>
+`;
