@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer should render Footer 1`] = `
+<footer
+  className="sc-bdvvtL iuZHJh"
+>
+  <a
+    className="sc-gsDKAQ gsXWMv"
+    href="https://github.com/mateusxis"
+    rel="noopener noreferrer"
+    target="_blank"
+  >
+    Desenvolvido por Mateusxis
+  </a>
+</footer>
+`;
