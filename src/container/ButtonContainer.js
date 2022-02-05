@@ -35,7 +35,6 @@ const ButtonContainer = ({ children }) => {
         })
       );
     }
-
     dispatch(deleteAddress());
 
     if (verifyZipCode(zipCodeSearched)) {
@@ -49,17 +48,20 @@ const ButtonContainer = ({ children }) => {
           timeout: 2000
         });
 
-        dispatch(
-          insertAddress({
-            address: addressData.address,
-            city: addressData.city,
-            district: addressData.district,
-            state: addressData.state,
-            zipCode: addressData.code
-          })
-        );
-
-        dispatch(insertError(false));
+        if (addressData.ok) {
+          dispatch(insertError(false));
+          dispatch(
+            insertAddress({
+              address: addressData.address,
+              city: addressData.city,
+              district: addressData.district,
+              state: addressData.state,
+              zipCode: addressData.code
+            })
+          );
+        } else {
+          dispatch(insertError(true));
+        }
       } catch {
         dispatch(insertError(true));
       } finally {
