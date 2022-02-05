@@ -2,6 +2,7 @@ import renderer from 'react-test-renderer';
 
 import FormInput from './FormInput';
 
+jest.mock('../../container/AlertContainer', () => jest.fn(() => <></>));
 jest.mock('../../container/ButtonContainer', () => jest.fn(() => <></>));
 jest.mock('../../container/InputContainer', () => jest.fn(() => <></>));
 jest.mock('../../container/TableContainer', () => jest.fn(() => <></>));
