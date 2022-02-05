@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Alert should render Alert 1`] = `
+<label
+  className="sc-bdvvtL fZpmBV"
+>
+  CEP buscado não encontrado ou incorreto.
+</label>
+`;
