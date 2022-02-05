@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HeaderTable should render HeaderTable 1`] = `
+<tr
+  className="sc-bdvvtL kpQNUU"
+>
+  <td
+    className="c1"
+    data-label="City"
+  >
+    City
+  </td>
+</tr>
+`;
