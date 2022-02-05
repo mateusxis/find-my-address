@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RowTable should render RowTable 1`] = `
+<tr
+  className="sc-bdvvtL bgbyWY"
+>
+  <td
+    className="c1"
+    data-label="City"
+  >
+    New York City
+  </td>
+</tr>
+`;
