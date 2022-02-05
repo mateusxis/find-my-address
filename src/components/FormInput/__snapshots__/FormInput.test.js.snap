@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FormInput should render FormInput 1`] = `
+<form
+  className="sc-bdvvtL gMTBCA"
+>
+  <section
+    className="sc-gsDKAQ cgvzQa"
+  />
+</form>
+`;
