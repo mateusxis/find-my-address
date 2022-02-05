@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Table should render Table 1`] = `
+Array [
+  <h2
+    className="sc-gsDKAQ gwMJsV"
+  >
+    My table
+  </h2>,
+  <table
+    className="sc-bdvvtL eukWAO"
+  >
+    <tr
+      className="sc-hKwDye bFMAfG"
+    >
+      <td
+        className="sc-dkPtRN ePeDwK c1"
+        data-label="Logradouro"
+      >
+        Logradouro
+      </td>
+      <td
+        className="sc-dkPtRN ePeDwK c2"
+        data-label="Bairro"
+      >
+        Bairro
+      </td>
+      <td
+        className="sc-dkPtRN ePeDwK c3"
+        data-label="Cidade"
+      >
+        Cidade
+      </td>
+      <td
+        className="sc-dkPtRN ePeDwK c4"
+        data-label="Estado"
+      >
+        Estado
+      </td>
+      <td
+        className="sc-dkPtRN ePeDwK c5"
+        data-label="CEP"
+      >
+        CEP
+      </td>
+    </tr>
+    <tr
+      className="sc-eCImPb Brvou"
+    >
+      <td
+        className="sc-dkPtRN ePeDwK c1"
+        data-label="Logradouro"
+      >
+        Street One
+      </td>
+      <td
+        className="sc-dkPtRN ePeDwK c2"
+        data-label="Bairro"
+      >
+        Queen
+      </td>
+      <td
+        className="sc-dkPtRN ePeDwK c3"
+        data-label="Cidade"
+      >
+        New York
+      </td>
+      <td
+        className="sc-dkPtRN ePeDwK c4"
+        data-label="Estado"
+      >
+        New York
+      </td>
+      <td
+        className="sc-dkPtRN ePeDwK c5"
+        data-label="CEP"
+      >
+        12345-000
+      </td>
+    </tr>
+  </table>,
+]
+`;
